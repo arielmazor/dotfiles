@@ -1,0 +1,19 @@
+configuration {
+    display-drun: "Applications";
+    display-window: "Windows:";
+    drun-display-format: "{name}";
+    font: "Cascadia Code 17";
+    modi: "window,run,drun";
+  }
+  
+@theme "/usr/share/rofi/themes/solarized.rasi"
+
+window {
+  width: 30%;
+}
+
+mainbox {
+  background-color: @bg;
+  children: [inputbar, listview];
+  padding: 20px;
+}
