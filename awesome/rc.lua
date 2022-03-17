@@ -108,7 +108,7 @@ local editor       = os.getenv("code") or "vim"
 local browser      = "google-chrome-stable"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "1", "2", "3", "4", "5" }
+awful.util.tagnames = { "WWW", "DEV", "VBOX", "SYS", "SPOTIFY" }
 awful.layout.layouts = {
     -- awful.layout.suit.floating,
     awful.layout.suit.tile,
